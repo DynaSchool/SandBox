@@ -49,8 +49,9 @@ def generer():
 
             print("On a {}{}{} un triangle avec {}{} = {}, {}{} = {} et {}{} = {}.".format(A, B, C, A, B, côté_1, A, C, côté_2, B, C, hypoténuse))
             print("Ce triangle est-il rectangle ?")
+    return (côté_1 , côté_2 , hypothénuse)
             
-def corriger():
+def corriger(côté_1 , côté_2 , hypothénuse):
     if hypoténuse == 0:
 
         print(" On sait que le triangle {}{}{} est rectangle en {}. ".format(A, B, C, A))
